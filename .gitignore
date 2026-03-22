@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Large model/log files
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# LIBERO - large experiment logs
+LIBERO/openvla/experiments/logs/
+
+# openpi - virtual environments & third party assets
+openpi/examples/libero/.venv/
+openpi/third_party/libero/
+
+# Dataset files
+*.hdf5
+*.h5
+datasets/
+results/
+outputs/
+
+# Misc
+.hydra/
+wandb/
+*.mp4
+*.log
+MUJOCO_LOG.TXT
+.vscode/
